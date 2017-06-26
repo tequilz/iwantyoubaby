@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg22"
+    android:weightSum="1">
+
+    <TextView
+        android:text="I want you Baby\nขอแจ้งให้คุณทราบว่า\nถึงช่วงเวลาดีๆ ของคุณแล้ว !"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+</LinearLayout>
